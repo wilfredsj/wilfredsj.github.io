@@ -15,7 +15,7 @@ Things that interest me, in no particular order:
 
 * Sociological simulation, especially with an evolutionary aspect
 
-* Photography
+* [Photography](../photography)
 
 
 Technical side:
