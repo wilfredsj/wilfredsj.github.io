@@ -1,0 +1,27 @@
+- id: main
+  folder: img/photos/main
+  images:
+  - name: 1.jpg
+    text: Osaka, 2014
+    tech: Nikon FE2, TMAX 100
+  - name: 2.jpg
+    text: Mino-o, Osaka, 2014
+    tech: Nikon FE2, TMAX 100
+  - name: 3.jpg
+    text: Gobi Desert, 2014
+    tech: Nikon D600
+  - name: 4.jpg
+    text: Okinawa, 2014
+    tech: Nikon D600
+  - name: 5.jpg
+    text: Jiuzhaigou, Sichuan Province, 2014
+    tech: Nikon D600
+  - name: 6.jpg
+    text: Rottnest Island, WA, 2015
+    tech: Nikon D600
+  - name: 7.jpg
+    text: Ishigaki, 2014
+    tech: Nikon D600
+  - name: 8.jpg
+    text: Lamma Island, Hong Kong, 2015
+    tech: Nikon D600

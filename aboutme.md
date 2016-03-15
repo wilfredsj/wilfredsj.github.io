@@ -1,16 +1,28 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Call me ' Wilf '
+subtitle: Unicode is one of mankind's greatest achievements
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+A long time ago, I studied Mathematics, but now I work as a Quant in Hong Kong.
+In my spare time, I enjoy implementing toy models, and I will demo some of them here.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Things that interest me, in no particular order:
 
-What else do you need?
+* Procedural generation, for instance making planets or islands
 
-### my history
+* Climate modelling (somewhat related)
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+* Sociological simulation, especially with an evolutionary aspect
+
+* Photography
+
+
+Technical side:
+
+* C++ (90% of what I do, ideally C++14)
+
+* Scala (pleasure)
+
+* Haskell (pain)
+
