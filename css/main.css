@@ -79,6 +79,8 @@ img::-moz-selection {
 
 img {
   max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 .disqus-comments {
@@ -94,11 +96,17 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background: #F5F5F5;
-  border-bottom: 1px solid #EAEAEA;
+  background: transparent;
+  /* foo  #F5F5F5;*/
+  border-bottom: 0px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+@media only screen and (max-width: 500px) {
+  .navbar-custom.top-nav-expanded {
+    background: #222222;
+  }
+}
 .navbar-custom .nav li a {
   text-transform: uppercase;
   font-size: 12px;
@@ -108,7 +116,7 @@ img {
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
   font-weight: 800;
-  color: #404040;
+  color: #EAEAEA;
 }
 
 .navbar-custom .navbar-brand:hover,
@@ -137,7 +145,7 @@ img {
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
-  left: 50%;
+  left: 15%;
   width: 50px;
   margin-top: -25px;
 }
@@ -162,6 +170,12 @@ img {
 
 .navbar-custom.top-nav-expanded .avatar-container  {
   display: none;
+}
+@media only screen and (max-width: 500px) {
+  .navbar-custom .avatar-container {
+    left: 5%;
+    margin-top: 25px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -409,4 +423,67 @@ table tr td :first-child {
 table tr th :last-child,
 table tr td :last-child {
   margin-bottom: 0;
+}
+
+
+/* --- Background Image --- */
+
+#header {
+  position: relative;
+  background: url(../img/header.jpg) no-repeat bottom center;
+  /*background-attachment: fixed;*/
+  background-size: cover;
+  text-align: center;
+}
+#header:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(100,50,200,0.1);
+}
+#logo {
+  position: relative;
+  z-index: 1;
+}
+#logo h1 {
+  color: #D00000;
+}
+#logo a {
+  display: block;
+  text-decoration: none;
+  font-weight: 300;
+  line-height: 2em;
+  font-size: 4em;
+  color: #EEEEEE;
+  letter-spacing: -0.05em;
+  margin: 0 0 0.125em 0;
+}
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+  #logo a {
+    font-weight: 300;
+    line-height: 2em;
+    font-size: 2em;
+    letter-spacing: -0.05em;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #logo a {
+    font-weight: 300;
+    line-height: 1.35em;
+    font-size: 1.25em;
+    letter-spacing: 0.em;
+  }
+}
+#logo span {
+  font-size: 3em;
+  color: #FFF;
+}
+@media only screen and (max-width: 500px) {
+  #logo span {
+    margin-left: 40px;
+    font-size: 1em;
+  }
 }
