@@ -18,7 +18,7 @@ So, having made something that works in F#, I thought I'd republish a collection
 
 You can find it [here](https://github.com/wilfredsj/opentk-in-fsharp/tree/master/src). The 5 examples contained cover:
 * Colours + Immediate API
-* Textures + Immediate API (this is almost directly taken from the [deathbyalgorithm](http://deathbyalgorithm.blogspot.com/2013/05/opentk-textures.html) example
+* Textures + Immediate API (this is almost directly taken from the [deathbyalgorithm](http://deathbyalgorithm.blogspot.com/2013/05/opentk-textures.html) example)
 * Colours + VBO  API
 * Textures + VBO API
 * Text-writing  
@@ -37,6 +37,6 @@ let execWithBoundTexture (textureId : int) fn () =
   GL.BindTexture(TextureTarget.Texture2D, 0)
 ~~~~
 
-The text-writing also needs a (procedurally generated) png file that has the ASCII characters rendered in a grid, like below. There's such a `texture.png` in the repo.
+The text-writing also needs a (procedurally generated) png file that has the ASCII characters rendered in a grid, like below. There's such a `texture.png` in the repo. The other texture-using demos need *any* .png file of the same name - may as well use the same file.
 
 [![Courier]({{ site.url }}/img/blog/opentk/texture.png)]({{ site.    url }}/img/blog/opentk/texture.png)
