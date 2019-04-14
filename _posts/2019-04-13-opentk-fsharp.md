@@ -36,3 +36,7 @@ let execWithBoundTexture (textureId : int) fn () =
   fn ()
   GL.BindTexture(TextureTarget.Texture2D, 0)
 ~~~~
+
+The text-writing also needs a (procedurally generated) png file that has the ASCII characters rendered in a grid, like below. There's such a `texture.png` in the repo.
+
+[![Courier]({{ site.url }}/img/blog/opentk/texture.png)]({{ site.    url }}/img/blog/opentk/texture.png)
